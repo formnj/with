@@ -1,4 +1,5 @@
 # with
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+with betterme
+>>>>>>> 360d920a6fc07c03e9451f44a4506ca66634f810
