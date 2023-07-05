@@ -1,5 +1,5 @@
 <template>
-  적용 테스트02
+  적용 테스트03
   <HelloWorld msg="Welcome to Your Vue.js App.."/>
 </template>
 
