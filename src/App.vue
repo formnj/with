@@ -1,5 +1,5 @@
 <template>
-  Guide
+  적용 테스트
   <HelloWorld msg="Welcome to Your Vue.js App.."/>
 </template>
 
