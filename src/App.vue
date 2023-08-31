@@ -1,7 +1,18 @@
 <template>
     적용 테스트03
     <HelloWorld msg="Welcome to Your Vue.js App.."/>
-    <Inputs type="radio" id="test" name="test" />
+    <ul>
+        <li>
+            <Inputs :_type="Inputs_data[0].type" :_id="Inputs_data[0].id" :_name="Inputs_data[0].name" class="ani" />
+            {{ Inputs_data[0].txt }}
+        </li>
+        <!-- 특정 위치 부터 가져올 때 method에 선언한 함수 호출 -->
+        <li v-for="(e,i) in startFrom(Inputs_data, 2,4)" :key="i">
+            <Inputs :_type="e.type" :_id="e.id" :_name="e.name" />
+            {{ e.txt }}
+            {{ i }}
+        </li>
+    </ul>
 </template>
 
 <script>
@@ -13,6 +24,23 @@ export default {
     components: {
         HelloWorld,
         Inputs
+    },
+    data(){
+        return {
+            Inputs_data:[
+                {type:'radio', id:'first', name:'first', txt:'First Item'},
+                {type:'radio', id:'test1', name:'test1', txt:'Second Item'},
+                {type:'checkbox', id:'test2', name:'test2', txt:'Third Item'},
+                {type:'radio', id:'test1', name:'test1', txt:'Fourth Item'},
+                {type:'checkbox', id:'test2', name:'test2', txt:'Fiveth Item'}
+            ]
+        }
+    },
+    methods: {
+        startFrom(arry, start, end){
+            return arry.slice(start,end)
+        }
+
     }
 }
 </script>

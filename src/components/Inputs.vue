@@ -1,6 +1,6 @@
 <template>
-    <label>
-        <input :type="type" :id="id" :name="name" />
+    <label v-if="_type == 'checkbox' || _type == 'radio'" class="check">
+        <input :type="_type" :id="_id" :name="_name" />
     </label>
 </template>
 
@@ -8,9 +8,9 @@
 export default {
     name: 'Inputs',
     props: {
-        id: String,
-        name: String,
-        type: String
+        _id: String,
+        _name: String,
+        _type: String
     }
 }
 </script>
