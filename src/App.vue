@@ -6,9 +6,20 @@
             <Inputs :_type="Inputs_data[0].type" :_id="Inputs_data[0].id" :_name="Inputs_data[0].name" class="ani" />
             {{ Inputs_data[0].txt }}
         </li>
-        <!-- 특정 위치 부터 가져올 때 method에 선언한 함수 호출 -->
-        <li v-for="(e,i) in startFrom(Inputs_data, 2,4)" :key="i">
+        <!-- 특정 위치 부터 가져올 때 method에 선언한 함수(startFrom) 호출 -->
+        <!-- <li v-for="(e,i) in Inputs_data" :key="i">
             <Inputs :_type="e.type" :_id="e.id" :_name="e.name" />
+            {{ e.txt }}
+            {{ i }}
+        </li> -->
+        <li v-for="(e,i) in startFrom(Inputs_data, 1,3)" :key="i">
+            <!-- <Inputs :_type="e.type" :_id="e.id" :_name="e.name" /> -->
+            a : 
+            {{ e.txt }}
+        </li>
+        <li v-for="(e,i) in startFrom(Inputs_data, 3,5)" :key="i">
+            <!-- <Inputs :_type="e.type" :_id="e.id" :_name="e.name" /> -->
+            b : 
             {{ e.txt }}
             {{ i }}
         </li>
@@ -37,7 +48,7 @@ export default {
         }
     },
     methods: {
-        startFrom(arry, start, end){
+        startFrom(arry, start, end){//start = index, end = n번째꺼
             return arry.slice(start,end)
         }
 
