@@ -59,4 +59,5 @@ section {margin:20px;}
 .design_box > ul > li {padding-top:15px; padding-left:15px;}
 
 .code_box {margin-top:20px; padding:15px; color:#fff; line-height:1.8; background-color:#000;}
+.code_box pre {overflow:auto;}
 </style>
