@@ -1,5 +1,7 @@
 <template>
-    <div>vue2</div>
+    <section>
+        <h2>Vue2</h2>
+    </section>
 </template>
 
 <script></script>

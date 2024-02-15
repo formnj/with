@@ -1,4 +1,6 @@
-* {margin:0; padding:0; list-style:none; box-sizing:border-box;}
+* {margin:0; padding:0; font-family:"Nanum Gothic"; list-style:none; box-sizing:border-box;}
+
+body {font-size:14px; line-height:1.45em;}
 
 ::-webkit-scrollbar {width:4px; height:4px;}
 ::-webkit-scrollbar-thumb {background-color:rgba(255,255,255,0.3); border-radius:4px;}
@@ -10,3 +12,5 @@ input[type="text"], input[type="email"], input[type="number"], input[type="tel"]
 button {border:0; cursor:pointer;}
 
 .input i {font-style:normal;}
+
+code {font-size:14px; font-family:"Nanum Gothic Coding";}

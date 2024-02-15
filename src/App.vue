@@ -20,6 +20,7 @@ export default {
 
 <style lang="scss">
 .guide_wrap {
+    padding:30px 0;
     section {
         margin:0 20px;
         & + section {
@@ -29,10 +30,20 @@ export default {
         }
         h2 {
             margin-bottom:20px;
-            padding:10px 10px;
+            padding:10px 10px 10px 20px;
             font-size: 24px;
             font-weight: 700;
+            position:relative;
             display:flex;
+            &:before {
+                height:15px;
+                border-left:5px solid #ff7200;
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform:translateY(-50%);
+            }
             ul {
                 margin-left:auto;
                 display:inline-flex;
@@ -55,7 +66,7 @@ export default {
                 padding-left:12px;
                 position:relative;
                 & + li {
-                    margin-top:5px;
+                    margin-top:15px;
                 }
                 &:before {
                     position:absolute;
@@ -63,6 +74,10 @@ export default {
                     left:0;
                     bottom:0;
                     content:'-';
+                    display:block;
+                }
+                strong {
+                    margin-bottom:8px;
                     display:block;
                 }
             }
