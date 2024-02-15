@@ -19,6 +19,9 @@
 
         <section>
             <h2>Select</h2>
+            <div class="design_box">
+                
+            </div>
         </section>
     </div>
 </template>

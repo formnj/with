@@ -1,9 +1,9 @@
 <template>
     <header>
-        <h1><a href="/with">Vue Guide</a></h1>
+        <h1><a href="/with/">Vue Guide</a></h1>
         <ul class="gnb">
-            <li><a href="/with/setting/">Setting</a></li>
-            <li><a href="/with/form/">Form</a></li>
+            <li><a href="/with/setting/vue2">Setting</a></li>
+            <li><a href="/with/form">Form</a></li>
         </ul>
     </header>
 </template>
