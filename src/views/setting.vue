@@ -3,7 +3,7 @@
         <section>
             <h2>Setting
                 <ul>
-                    <li><a href="/with/setting">Vue2</a></li>
+                    <li><a href="/with/setting/vue2/">Vue2</a></li>
                     <li><a href="/with/setting/vue3/">Vue3</a></li>
                 </ul>
             </h2>            
