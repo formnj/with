@@ -8,3 +8,5 @@ input {vertical-align:middle;}
 input[type="text"], input[type="email"], input[type="number"], input[type="tel"], input[type="password"], input[type="url"], input[type="search"], input[type="file"], textarea {height:42px; padding:0 15px; background-color:#fff; border:1px solid #e8e5e2; border-radius:0; -webkit-appearance:none; -moz-appearance:none; -ms-appearance:none; -o-appearance:none;}
 
 button {border:0; cursor:pointer;}
+
+.input i {font-style:normal;}
