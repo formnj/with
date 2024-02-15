@@ -21,7 +21,7 @@ export default {
         _id: String, //input ID
         _name: String, // Input NAME
         _type: String, // Input TYPE
-        _text: String, // checkbox, radio 문구ㅜ
+        _text: String, // checkbox, radio 문구
         _placeholder: String, // Input PLACEHOLDER
         _value: null, // Input VALUE
         _err_text: String, // 오류 시 노출 문구
