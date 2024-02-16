@@ -7,7 +7,7 @@ if(window.location.hostname == 'formnj.github.io'){
 import { createWebHistory, createRouter } from "vue-router";
 const routes = [
     {
-        path: "path", //기본 path이면
+        path: path, //기본 path이면
         component: () => import("@/views/index"),
     },{
         path: path+"setting/vue2", //기본 path이면
