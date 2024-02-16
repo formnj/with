@@ -1,7 +1,7 @@
 <template>
     <div class="guide_wrap">
         <section>
-            <h2>Setting - 공통
+            <h2>Setting
                 <ul>
                     <li><a href="/with/setting/vue2/">Vue2</a></li>
                     <li><a href="/with/setting/vue3/">Vue3</a></li>

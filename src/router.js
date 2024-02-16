@@ -1,22 +1,28 @@
+if(window.location.hostname == 'formnj.github.io'){
+    var path = '/with/';
+} else {
+    var path = '/';
+}
+
 import { createWebHistory, createRouter } from "vue-router";
 const routes = [
     {
-        path: "/with/", //기본 path이면
+        path: "path", //기본 path이면
         component: () => import("@/views/index"),
     },{
-        path: "/with/setting/vue2", //기본 path이면
+        path: path+"setting/vue2", //기본 path이면
         component: () => import("@/views/setting"),
         children: [
             {
-                path: "/with/setting/vue2",
+                path: path+"setting/vue2",
                 component: () => import("@/views/vue2"),
             },{
-                path: "/with/setting/vue3",
+                path: path+"setting/vue3",
                 component: () => import("@/views/vue3"),
             },
         ]
     },{
-        path: "/with/form", //기본 path이면
+        path: path+"form", //기본 path이면
         component: () => import("@/views/forms"),
     },
 ];
