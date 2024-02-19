@@ -11,10 +11,10 @@ const routes = [
         path: path, //기본 path이면
         component: () => import("@/views/index"),
         children: [
-            {
-                path: path+"setting/vue2", //기본 path이면
-                component: () => import("@/views/setting"),
-                children: [
+            // {
+            //     path: path+"setting/vue2", //기본 path이면
+            //     component: () => import("@/views/setting"),
+            //     children: [
                     {
                         path: path+"setting/vue2",
                         component: () => import("@/views/vue2"),
@@ -22,11 +22,11 @@ const routes = [
                         path: path+"setting/vue3",
                         component: () => import("@/views/vue3"),
                     },
-                ]
-            },{
-                path: path+"form", //기본 path이면
-                component: () => import("@/views/forms"),
-            },
+                // ]
+            // },{
+            //     path: path+"form", //기본 path이면
+            //     component: () => import("@/views/forms"),
+            // },
         ]
     }
 ];
