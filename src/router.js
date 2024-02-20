@@ -1,10 +1,10 @@
 import { createWebHistory, createRouter } from "vue-router";
-var path = '/with/';
-// if(window.location.hostname == 'formnj.github.io'){
-//     var path = '/with/';
-// } else {
-//     var path = '/';
-// }
+// var path = '/with/';
+if(window.location.hostname == 'formnj.github.io'){
+    var path = '/with/';
+} else {
+    var path = '/';
+}
 
 const routes = [
     {
@@ -25,7 +25,10 @@ const routes = [
     },{
         path: path+"form", //기본 path이면
         component: () => import("@/views/forms"),
-    },
+    },{
+        path: path+"script", //기본 path이면
+        component: () => import("@/views/script"),
+    },,
 ];
 
 export const router = createRouter({

@@ -1,14 +1,22 @@
 <template>
     <header>
-        <h1><a href="/with/">Vue Guide</a></h1>
+        <h1><a :href="path">Vue Guide.</a></h1>
         <ul class="gnb">
-            <li><a href="/with/setting/vue2/">Setting</a></li>
-            <li><a href="/with/form/">Form</a></li>
+            <li :id="path"><a :href="path+'setting/vue2/'">Setting</a></li>
+            <li><a :href="path+'form/'">Form</a></li>
         </ul>
     </header>
 </template>
 
-<script></script>
+<script setup>
+let path = ''
+
+if(window.location.hostname == 'formnj.github.io'){
+    path = '/with/'
+} else {
+    path = '/'
+}
+</script>
 
 <style lang="scss" scoped>
     header {
