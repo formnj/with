@@ -14,6 +14,7 @@ const routes = [
     {
         path: path, //기본 path이면
         component: () => import("@/views/setting"),
+        name: "pc",
         children: [
             {
                 // path: path+"setting/vue2",
