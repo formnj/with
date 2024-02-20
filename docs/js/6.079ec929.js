@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwith"]=self["webpackChunkwith"]||[]).push([[6],{3006:function(n,t,c){c.r(t),c.d(t,{default:function(){return a}});var e=c(3396);const r=(0,e._)("h2",null,"Script",-1),u=(0,e._)("pre",{class:"code_box"},[(0,e._)("code",null,"<script setup><\/script>")],-1),s=[r,u];function i(n,t){return(0,e.wg)(),(0,e.iD)("section",null,s)}var l=c(89);const o={},p=(0,l.Z)(o,[["render",i]]);var a=p}}]);
+//# sourceMappingURL=6.079ec929.js.map
