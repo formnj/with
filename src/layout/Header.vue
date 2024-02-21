@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1><a :href="path">Vue Guide.</a></h1>
+        <h1><a :href="path">Vue Guide</a></h1>
         <ul class="gnb">
             <li><a :href="path+'setting/vue2/'">Syntax</a>
                 <ul v-if="param == 'setting'">
