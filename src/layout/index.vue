@@ -1,7 +1,6 @@
 <template>
-    <section>
-        <h2>vue3</h2>
-    </section>
+    Index Wrap
+    <router-view></router-view>
 </template>
 
 <script></script>

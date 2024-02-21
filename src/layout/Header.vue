@@ -2,12 +2,7 @@
     <header>
         <h1><a :href="path">Vue Guide</a></h1>
         <ul class="gnb">
-            <li><a :href="path+'setting/vue2/'">Syntax</a>
-                <ul v-if="param == 'setting'">
-                    <li><a :href="path+'setting/vue2/'">Vue2</a></li>
-                    <li><a :href="path+'setting/vue3/'">Vue3</a></li>
-                </ul>
-            </li>
+            <li><a :href="path+'different'">What's different?</a></li>
             <li><a :href="path+'form/'">Form</a></li>
             <li><a :href="path+'script/'">Script</a></li>
         </ul>

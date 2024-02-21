@@ -103,10 +103,14 @@ export default {
                 }
             }
         }
+        h3 {
+            margin-top:20px;
+            margin-bottom:10px;
+        }
     }
 }
 .design_box {
-    padding:20px;
+    padding:15px;
     border:1px solid #eee;
     ul {
         margin-top:-15px;
@@ -122,11 +126,11 @@ export default {
 }
 
 .code_box {
-    margin-top:20px;
     padding:15px;
     color:#fff;
     line-height:1.8;
     background-color:#000;
+    border:10px solid #f2f2f2;
     pre {
         overflow:auto;
     }
