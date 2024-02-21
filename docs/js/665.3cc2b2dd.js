@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkwith"]=self["webpackChunkwith"]||[]).push([[665],{3665:function(t,n,e){e.r(n),e.d(n,{default:function(){return i}});var o=e(3396),u={__name:"setting",setup(t){let n="";return n="formnj.github.io"==window.location.hostname?"/with/":"/",console.log(n),(t,n)=>{const e=(0,o.up)("router-view");return(0,o.wg)(),(0,o.j4)(e)}}};const r=u;var i=r}}]);
+//# sourceMappingURL=665.3cc2b2dd.js.map
