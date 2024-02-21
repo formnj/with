@@ -1,29 +1,27 @@
 <template>
-    <div class="guide_wrap">
-        <section>
-            <h2>Inputs</h2>
-            <ul class="toolbar">
-                <li><button class="current" @click="tool_select('text');">Text</button></li>
-                <li><button @click="tool_select('pw');">Password</button></li>
-                <li><button @click="tool_select('check');">Checkbox</button></li>
-                <li><button @click="tool_select('radio');">Radio</button></li>
-                <li><button @click="tool_select('isswitch');">Switch</button></li>
-            </ul>
-            <div class="design_box">
-                <Inputs :_type="form_opt[0].type" :isswitch="form_opt[0].isswitch" :_placeholder="form_opt[0].Placeholder" _text="Label" />
-            </div>
-            <div class="code_box">
-                <pre><code>&lt;Inputs {{ form_opt[0].opt }} /&gt;</code></pre>
-            </div>
-        </section>
+    <section>
+        <h2>Inputs</h2>
+        <ul class="toolbar">
+            <li><button class="current" @click="tool_select('text');">Text</button></li>
+            <li><button @click="tool_select('pw');">Password</button></li>
+            <li><button @click="tool_select('check');">Checkbox</button></li>
+            <li><button @click="tool_select('radio');">Radio</button></li>
+            <li><button @click="tool_select('isswitch');">Switch</button></li>
+        </ul>
+        <div class="design_box">
+            <Inputs :_type="form_opt[0].type" :isswitch="form_opt[0].isswitch" :_placeholder="form_opt[0].Placeholder" _text="Label" />
+        </div>
+        <div class="code_box">
+            <pre><code>&lt;Inputs {{ form_opt[0].opt }} /&gt;</code></pre>
+        </div>
+    </section>
 
-        <section>
-            <h2>Select</h2>
-            <div class="design_box">
-                
-            </div>
-        </section>
-    </div>
+    <section>
+        <h2>Select</h2>
+        <div class="design_box">
+            
+        </div>
+    </section>
 </template>
 
 <script>

@@ -2,7 +2,9 @@
     <div id="wrap">
         <Header />
         <div id="container">
-            <router-view></router-view>
+            <div class="guide_wrap">
+                <router-view></router-view>
+            </div>
         </div>
     </div>
 </template>

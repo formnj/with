@@ -1,5 +1,7 @@
 <template>
-    <div>vue3</div>
+    <section>
+        <h2>vue3</h2>
+    </section>
 </template>
 
 <script></script>

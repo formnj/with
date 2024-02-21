@@ -7,18 +7,15 @@ if(window.location.hostname == 'formnj.github.io'){
 }
 
 const routes = [
-    // {
-    //     path: path, //기본 path이면
-    //     component: () => import("@/views/index"),
-    // },{
     {
         path: path, //기본 path이면
+        component: () => import("@/views/index"),
+    },{
+        path: path+"setting/vue2", //기본 path이면
         component: () => import("@/views/setting"),
-        name: "pc",
         children: [
             {
-                // path: path+"setting/vue2",
-                path: path,
+                path: path+"setting/vue2",
                 component: () => import("@/views/vue2"),
             },{
                 path: path+"setting/vue3",
