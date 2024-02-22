@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkwith"]=self["webpackChunkwith"]||[]).push([[201],{1201:function(n,r,e){e.r(r),e.d(r,{default:function(){return s}});var t=e(3396);function u(n,r){const e=(0,t.up)("router-view");return(0,t.wg)(),(0,t.iD)(t.HY,null,[(0,t.Uk)(" Index Wrap "),(0,t.Wm)(e)],64)}var c=e(89);const i={},a=(0,c.Z)(i,[["render",u]]);var s=a}}]);
-//# sourceMappingURL=201.8750cc78.js.map

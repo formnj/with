@@ -25,7 +25,10 @@
         <h3>&lt;script&gt;</h3>
         <pre class="code_box"><code>&lt;script&gt;
 export default {
-    methods:{}, //함수 선언영역
+    data(){
+        return{}
+    }, //data 선언 영역
+    methods:{}, //함수 선언 영역
     mounted(){} //컴포넌트가 마운트된 후 호출 ($(document).ready와 같은 개념)
 }
 &lt;/script&gt;</code></pre>
@@ -34,17 +37,25 @@ export default {
         <pre class="code_box"><code>&lt;script setup&gt;
 import { onMounted } from 'vue'
 
-onMounted(() => {})
+onMounted(() => {}) //컴포넌트가 마운트된 후 호출 ($(document).ready와 같은 개념)
 &lt;/script&gt;</code></pre>
     </section>
 </template>
 
 <script>
 export default {
-    data(){}, //data 선언영역
-    methods:{}, //함수 선언영역
+    data(){
+        return{}
+    }, //data 선언 영역
+    methods:{}, //함수 선언 영역
     mounted(){} //컴포넌트가 마운트된 후 호출 ($(document).ready와 같은 개념)
 }
 </script>
+
+<!-- <script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {}) //컴포넌트가 마운트된 후 호출 ($(document).ready와 같은 개념)
+</script> -->
 
 <style></style>

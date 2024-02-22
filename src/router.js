@@ -9,7 +9,7 @@ if(window.location.hostname == 'formnj.github.io'){
 const routes = [
     {
         path: path, //기본 path이면
-        component: () => import("@/layout/index"),
+        component: () => import("@/layout/Wrap"),
         children: [
             {
                 path: path+"different",
