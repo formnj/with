@@ -14,11 +14,14 @@ const routes = [
             {
                 path: path+"different",
                 component: () => import("@/views/different"),
-            },
+            },{
+                path: path+"components", //기본 path이면
+                component: () => import("@/views/components"),
+            }
         ]
     },{
-        path: path+"form", //기본 path이면
-        component: () => import("@/views/forms"),
+        path: path+"setting", //기본 path이면
+        component: () => import("@/views/setting"),
     },
 ];
 

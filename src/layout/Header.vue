@@ -3,8 +3,9 @@
         <h1><a :href="path">Vue Guide</a></h1>
         <ul class="gnb">
             <li><a :href="path+'different'">What's different?</a></li>
-            <li><a :href="path+'form/'">Form</a></li>
+            <li><a :href="path+'components/'">Components</a></li>
             <li><a :href="path+'script/'">Script</a></li>
+            <li><a :href="path+'setting/'">Setting</a></li>
         </ul>
     </header>
 </template>

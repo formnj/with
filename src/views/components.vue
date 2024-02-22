@@ -11,9 +11,7 @@
         <div class="design_box">
             <Inputs :_type="form_opt[0].type" :isswitch="form_opt[0].isswitch" :_placeholder="form_opt[0].Placeholder" _text="Label" />
         </div>
-        <div class="code_box">
-            <pre><code>&lt;Inputs {{ form_opt[0].opt }} /&gt;</code></pre>
-        </div>
+        <pre class="code_box"><code>&lt;Inputs {{ form_opt[0].opt }} /&gt;</code></pre>
     </section>
 
     <section>
