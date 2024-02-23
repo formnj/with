@@ -11,4 +11,13 @@ module.exports = defineConfig({
     lintOnSave : false,
     publicPath: "/with/",
     outputDir: "/docs",
+    css : {
+        loaderOptions: {
+            sass: {
+                additionalData: `
+                @import "@/assets/scss/_common.scss";
+            `
+            }
+        }
+    }
 })
