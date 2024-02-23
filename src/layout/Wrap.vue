@@ -1,4 +1,5 @@
-<template>ss
+<template>
+    <strong>Wrap</strong>
     <router-view></router-view>
 </template>
 
