@@ -23,9 +23,8 @@ if(window.location.hostname == 'formnj.github.io'){
 console.log(window.location.pathname+' , '+param)
 </script>
 
-<style lang="scss">
+<style lang="scss">    
     header {
-        border:$error_chk;
         padding:20px;
         border-bottom:1px solid #ddd;
         display:flex;

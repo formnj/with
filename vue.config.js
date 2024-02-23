@@ -10,14 +10,5 @@ module.exports = defineConfig({
     transpileDependencies: true,
     lintOnSave : false,
     publicPath: "/with/",
-    outputDir: "/docs",
-    css : {
-        loaderOptions: {
-            sass: {
-                additionalData: `
-                @import "@/assets/scss/_common.scss";
-            `
-            }
-        }
-    }
+    outputDir: "/docs"
 })
