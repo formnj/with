@@ -22,7 +22,10 @@ const routes = [
     },{
         path: path+"setting", //기본 path이면
         component: () => import("@/views/setting"),
-    },
+    },{
+        path: "/:pathMatch(.*)*", //매칭되는 path가 없는 경우
+        component: () => import("@/views/notFound")
+    }
 ];
 
 export const router = createRouter({
