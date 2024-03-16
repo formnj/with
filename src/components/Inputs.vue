@@ -1,4 +1,4 @@
-<template>sssss
+<template>
     <label v-if="_type == 'checkbox' || _type == 'radio'" :class="{'check': !isswitch, 'check_ani': isswitch}">
         <input :type="_type" :id="_id" :name="_name" />
         <em class="label">{{_text}}</em>
